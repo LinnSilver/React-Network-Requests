@@ -1,4 +1,5 @@
 import './App.css';
+import HTTPHooks from './components/HTTPHooks';
 import HTTPPost from './components/HTTPPost';
 import HTTPRequests from "./components/HTTPRequests";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <HTTPRequests />
       <HTTPPost />
+      <HTTPHooks />
     </div>
   );
 }
